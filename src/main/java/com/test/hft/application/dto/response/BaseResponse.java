@@ -2,6 +2,10 @@ package com.test.hft.application.dto.response;
 
 import java.time.LocalDateTime;
 
+/**
+ * Author: Vuxie
+ * Date : 17/07/2025
+ */
 public class BaseResponse<T> {
 
     private String code;

@@ -12,6 +12,10 @@ import org.springframework.web.bind.annotation.RestControllerAdvice;
 
 import java.util.Locale;
 
+/**
+ * Author: Vuxie
+ * Date : 17/07/2025
+ */
 @RestControllerAdvice
 public class GlobalExceptionHandler {
 

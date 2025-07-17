@@ -1,5 +1,9 @@
 package com.test.hft.presentation.exception;
 
+/**
+ * Author: Vuxie
+ * Date : 17/07/2025
+ */
 public enum ErrorCode {
     ORDER_NOT_FOUND("ERR_404", "error.order.not_found"),
     INVALID_ORDER_STATUS("ERR_400", "error.order.invalid_status"),

@@ -10,6 +10,10 @@ import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.provisioning.InMemoryUserDetailsManager;
 import org.springframework.security.web.SecurityFilterChain;
 
+/**
+ * Author: Vuxie
+ * Date : 17/07/2025
+ */
 @Configuration
 @EnableWebSecurity
 public class SecurityConfig {

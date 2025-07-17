@@ -5,7 +5,10 @@ import io.swagger.v3.oas.models.info.Info;
 import io.swagger.v3.oas.models.info.Contact;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-
+/**
+ * Author: Vuxie
+ * Date : 17/07/2025
+ */
 @Configuration
 public class SwaggerConfig {
     @Bean

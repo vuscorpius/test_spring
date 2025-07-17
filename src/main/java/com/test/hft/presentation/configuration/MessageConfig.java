@@ -5,6 +5,10 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.support.ReloadableResourceBundleMessageSource;
 
+/**
+ * Author: Vuxie
+ * Date : 17/07/2025
+ */
 @Configuration
 public class MessageConfig {
 

@@ -6,6 +6,11 @@ import jakarta.validation.constraints.*;
 
 import java.math.BigDecimal;
 
+/**
+ * Author: Vuxie
+ * Date : 17/07/2025
+ */
+
 public class CreateOrderRequest {
     @NotBlank(message = "Symbol is required")
     @Size(min = 1, max = 10, message = "Symbol must be between 1 and 10 characters")

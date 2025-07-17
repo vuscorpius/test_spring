@@ -5,6 +5,10 @@ import com.fasterxml.jackson.annotation.JsonFormat;
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
 
+/**
+ * Author: Vuxie
+ * Date : 17/07/2025
+ */
 public class Order {
     private Long id;
     private String symbol;

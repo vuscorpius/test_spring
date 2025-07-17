@@ -1,5 +1,9 @@
 package com.test.hft.presentation.exception;
 
+/**
+ * Author: Vuxie
+ * Date : 17/07/2025
+ */
 public class BusinessException extends RuntimeException {
 
     private final ErrorCode errorCode;
