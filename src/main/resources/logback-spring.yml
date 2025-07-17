@@ -1,0 +1,13 @@
+logging:
+  level:
+    root: INFO
+    com.test.hft: DEBUG
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n"
+  file:
+    name: logs/app.log
+  logback:
+    rolling policy:
+      file-name-pattern: logs/app-%d{yyyy-MM-dd}.%i.log
+      max-file-size: 10MB
+      max-history: 7
